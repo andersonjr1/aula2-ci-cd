@@ -70,6 +70,6 @@ router.delete("/todo/:id", (req: Request, res: Response) => {
   } catch (error) {
     res.status(400).send({ erro: error });
   }
-}));
+});
 
 export { router };
